@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">DestinationsInn</string>
+    <string name="app_name">Select a Hotel</string>
     <string name="title_activity_login">Sign in</string>
 
     <!-- Strings related to login -->
