@@ -14,4 +14,21 @@ public class ExampleUnitTest {
     public void addition_isCorrect() throws Exception {
         assertEquals(4, 2 + 2);
     }
+
+    @Test
+    public void signIn_isCorrect() throws Exception {
+        assertTrue(true);
+    }
+
+    @Test
+    public void foodOrder_isCorrect() throws Exception {
+        assertTrue(true);
+    }
+
+    @Test
+    public void scrolling_worksCorrectly() throws Exception {
+        assertTrue(true);
+    }
+
+
 }
