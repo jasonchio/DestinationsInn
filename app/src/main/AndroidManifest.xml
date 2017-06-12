@@ -25,6 +25,7 @@
             android:name=".DestinationInn"
             android:label="hello"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".BlackSwan"></activity>
     </application>
 
 </manifest>
