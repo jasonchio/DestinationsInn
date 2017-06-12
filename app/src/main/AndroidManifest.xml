@@ -23,7 +23,7 @@
         </activity>
         <activity
             android:name=".DestinationInn"
-            android:label="@string/title_activity_destination_inn"
+            android:label="hello"
             android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
