@@ -15,7 +15,7 @@ public class DestinationInn extends AppCompatActivity {
         setContentView(R.layout.activity_destination_inn);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        getSupportActionBar().setTitle("dafkljasdlfj");
+        getSupportActionBar().setTitle("Select a room");
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
