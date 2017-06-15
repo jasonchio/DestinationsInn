@@ -8,21 +8,19 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button dest;
-    Button blk;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+    }
 
-        dest = (Button) findViewById(R.id.dest);
-        blk = (Button) findViewById(R.id.blk);
+    public void openDestinations(View view) {
+        Intent i = new Intent(this, Destinations.class);
+        startActivity(i);
+    }
 
-        dest.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, DestinationInn.class);
-                startActivity(intent);
-            }
-        });
+    public void openBlackSwan(View view) {
+        Intent i = new Intent(this, BlackSwan.class);
+        startActivity(i);
+    }
+}
