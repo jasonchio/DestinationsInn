@@ -16,6 +16,7 @@ public class BlackSwan extends AppCompatActivity {
 
     public void openArabianNights(View view) {
         Intent i = new Intent(this, Room.class);
+        i.putExtra("welcome", "welcome to arabian nights");
         startActivity(i);
     }
 

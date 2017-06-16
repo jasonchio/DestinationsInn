@@ -1,5 +1,8 @@
 <resources>
-    <string name="app_name">Select a Hotel</string>
+    <string name="app_name">Hotel Application</string>
+    <string name="main">Select a Hotel</string>
     <string name="hotel">Select a Room</string>
-    <string name="room">Welcome to</string>
+    <string name="room">Welcome to the Room</string>
+    <string name="rome">Welcome to Rome</string>
+    <string name="newyork">Welcome to New York</string>
 </resources>

@@ -11,6 +11,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setTitle(R.string.main);
         setContentView(R.layout.activity_main);
     }
 
@@ -21,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void openBlackSwan(View view) {
         Intent i = new Intent(this, BlackSwan.class);
+        i.putExtra("welcome", R.string.app_name);
         startActivity(i);
     }
 }
