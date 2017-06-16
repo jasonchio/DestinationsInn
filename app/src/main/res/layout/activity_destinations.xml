@@ -11,150 +11,140 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:id="@+id/arabian"
+        android:id="@+id/alaska"
         android:background="#99aadd"
-        android:text="Arabian Nights"
-        android:onClick="openArabianNights"
+        android:text="Alaska"
+        android:onClick="openAlaska"
         />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:id="@+id/atlantis"
+        android:id="@+id/arabia"
         android:background="#dd99aa"
-        android:text="Atlantis Under the Sea"
-        android:onClick="openAtlantis"
+        android:text="Arabia"
+        android:onClick="openArabia"
         />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:id="@+id/garden"
+        android:id="@+id/athens"
         android:background="#99aadd"
-        android:text="Black Swan Garden"
-        android:onClick="openGarden"
+        android:text="Athens"
+        android:onClick="openAthens"
         />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:id="@+id/cave"
+        android:id="@+id/congo"
         android:background="#dd99aa"
-        android:text="Cave"
-        android:onClick="openCave"
+        android:text="Congo"
+        android:onClick="openCongo"
         />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:id="@+id/egyptian"
+        android:id="@+id/egypt"
         android:background="#99aadd"
-        android:text="Egyptian"
-        android:onClick="openEgyptian"
+        android:text="Egypt"
+        android:onClick="openEgypt"
         />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:id="@+id/enchanted"
+        android:id="@+id/england"
         android:background="#dd99aa"
-        android:text="Enchanted Forest"
-        android:onClick="openEnchanted"
+        android:text="England"
+        android:onClick="openEngland"
         />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:id="@+id/jungle"
+        android:id="@+id/hawaii"
         android:background="#99aadd"
-        android:text="Jungle Falls"
-        android:onClick="openJungle"
+        android:text="Hawaii"
+        android:onClick="openHawaii"
         />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:id="@+id/mayan"
+        android:id="@+id/morocco"
         android:background="#dd99aa"
-        android:text="Mayan Rainforest"
-        android:onClick="openMayan"
+        android:text="Morocco"
+        android:onClick="openMorocco"
         />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:id="@+id/pirates"
+        android:id="@+id/newYork"
         android:background="#99aadd"
-        android:text="Pirate's Suite"
-        android:onClick="openPirates"
+        android:text="New York"
+        android:onClick="openNewYork"
         />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:id="@+id/cabin"
+        android:id="@+id/paris"
         android:background="#dd99aa"
-        android:text="Rocky Mountain Cabin"
-        android:onClick="openCabin"
+        android:text="Paris"
+        android:onClick="openParis"
         />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:id="@+id/rji"
+        android:id="@+id/rio"
         android:background="#99aadd"
-        android:text="Romeo and Juliet I"
-        android:onClick="openRomeoI"
+        android:text="Rio De Janeiro"
+        android:onClick="openRio"
         />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:id="@+id/rjiin"
+        android:id="@+id/rome"
         android:background="#dd99aa"
-        android:text="Romeo and Juliet II"
-        android:onClick="openRJI"
+        android:text="Rome"
+        android:onClick="openRome"
         />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:id="@+id/seaCave"
+        android:id="@+id/thailand"
         android:background="#99aadd"
-        android:text="Sea Cave"
-        android:onClick="openSeaCave"
+        android:text="Thailand"
+        android:onClick="openThailand"
         />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:id="@+id/tropical"
+        android:id="@+id/venice"
         android:background="#dd99aa"
-        android:text="Tropical Paradise"
-        android:onClick="openTropical"
-        />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:id="@+id/wildWest"
-        android:background="#99aadd"
-        android:text="Wild West"
-        android:onClick="openWildWest"
+        android:text="Venice"
+        android:onClick="openVenice"
         />
 
 </LinearLayout>

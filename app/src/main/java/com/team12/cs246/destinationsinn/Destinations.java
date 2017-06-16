@@ -4,89 +4,84 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 
-public class BlackSwan extends AppCompatActivity {
+public class Destinations extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setTitle(R.string.hotel);
-        setContentView(R.layout.activity_black_swan);
+        setContentView(R.layout.activity_destinations);
     }
 
-    public void openArabianNights(View view) {
+    public void openAlaska(View view) {
         Intent i = new Intent(this, Room.class);
         startActivity(i);
     }
 
-    public void openAtlantis(View view) {
+    public void openArabia(View view) {
         Intent i = new Intent(this, Room.class);
         startActivity(i);
     }
 
-    public void openGarden(View view) {
+    public void openAthens(View view) {
         Intent i = new Intent(this, Room.class);
         startActivity(i);
     }
 
-    public void openCave(View view) {
+    public void openCongo(View view) {
         Intent i = new Intent(this, Room.class);
         startActivity(i);
     }
 
-    public void openEgyptian(View view) {
+    public void openEgypt(View view) {
         Intent i = new Intent(this, Room.class);
         startActivity(i);
     }
 
-    public void openEnchanted(View view) {
+    public void openEngland(View view) {
         Intent i = new Intent(this, Room.class);
         startActivity(i);
     }
 
-    public void openJungle(View view) {
+    public void openHawaii(View view) {
         Intent i = new Intent(this, Room.class);
         startActivity(i);
     }
 
-    public void openMayan(View view) {
+    public void openMorocco(View view) {
         Intent i = new Intent(this, Room.class);
         startActivity(i);
     }
 
-    public void openPirates(View view) {
+    public void openNewYork(View view) {
         Intent i = new Intent(this, Room.class);
         startActivity(i);
     }
 
-    public void openCabin(View view) {
+    public void openParis(View view) {
         Intent i = new Intent(this, Room.class);
         startActivity(i);
     }
 
-    public void openRJI(View view) {
+    public void openRio(View view) {
         Intent i = new Intent(this, Room.class);
         startActivity(i);
     }
 
-    public void openRJII(View view) {
+    public void openRome(View view) {
         Intent i = new Intent(this, Room.class);
         startActivity(i);
     }
 
-    public void openSeaCave(View view) {
+    public void openThailand(View view) {
         Intent i = new Intent(this, Room.class);
         startActivity(i);
     }
 
-    public void openTropical(View view) {
-        Intent i = new Intent(this, Room.class);
-        startActivity(i);
-    }
-
-    public void openWildWest(View view) {
+    public void openVenice(View view) {
         Intent i = new Intent(this, Room.class);
         startActivity(i);
     }
 }
-
