@@ -57,6 +57,7 @@ public class Destinations extends AppCompatActivity {
 
     public void openNewYork(View view) {
         Intent i = new Intent(this, Room.class);
+        i.putExtra("welcome", R.string.newyork);
         startActivity(i);
     }
 
@@ -72,6 +73,7 @@ public class Destinations extends AppCompatActivity {
 
     public void openRome(View view) {
         Intent i = new Intent(this, Room.class);
+        i.putExtra("welcome", R.string.rome);
         startActivity(i);
     }
 
