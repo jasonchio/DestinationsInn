@@ -25,8 +25,6 @@ public class Destinations extends AppCompatActivity {
     public void openArabia(View view) {
         Intent i = new Intent(this, Room.class);
         i.putExtra("welcome", R.string.arabia);
-        i.putExtra("fname", "Ben");
-        i.putExtra("lname", "Fisher");
         startActivity(i);
     }
 
