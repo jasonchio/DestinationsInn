@@ -15,6 +15,7 @@
     <string name="paris">Welcome to Paris</string>
     <string name="rio">Welcome to Rio de Janeiro</string>
     <string name="rome">Welcome to Rome</string>
-    <string name="venice">Welcome to Thailand</string>
+    <string name="thailand">Welcome to Thailand</string>
+    <string name="venice">Welcome to Venice</string>
 
 </resources>
