@@ -17,5 +17,7 @@
     <string name="rome">Welcome to Rome</string>
     <string name="thailand">Welcome to Thailand</string>
     <string name="venice">Welcome to Venice</string>
+    <string name="title_feature_list">Details</string>
+    <string name="title_feature_detail">Feature Detail</string>
 
 </resources>
