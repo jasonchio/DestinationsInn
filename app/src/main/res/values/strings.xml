@@ -7,10 +7,7 @@
     <string name="arabia">Welcome to Arabia</string>
     <string name="athens">Welcome to Athens</string>
     <string name="congo">Welcome to Congo</string>
-    <string name="egypt">Welcome to Egypt</string>
-    <string name="england">Welcome to England</string>
-    <string name="hawaii">Welcome to Hawaii</string>
-    <string name="morocco">Welcome to Morocco</string>
+    <string name="rome">Welcome to Rome</string>
     <string name="newyork">Welcome to New York</string>
     <string name="paris">Welcome to Paris</string>
     <string name="rio">Welcome to Rio de Janeiro</string>
@@ -20,4 +17,19 @@
     <string name="title_feature_list">Details</string>
     <string name="title_feature_detail">Feature Detail</string>
 
+    <string name="altanis">Welcome to Altanis</string>
+    <string name="garden">Welcome to Garden</string>
+    <string name="arabian">Welcome to Arabian Nights</string>
+    <string name="cave">Welcome to Cave</string>
+    <string name="egyptian">Welcome to Egyptian</string>
+    <string name="enchanted">Welcome to Enchanted Forest</string>
+    <string name="jungle">Welcome to Jungle</string>
+    <string name="mayan">Welcome to Mayan Rainforest</string>
+    <string name="pirates">Welcome to Pirates</string>
+    <string name="cabin">Welcome to Cabin</string>
+    <string name="rji">Welcome to Romeo and Juliet I</string>
+    <string name="rjii">Welcome to Romeo and Juliet II</string>
+    <string name="seacave">Welcome to Sea Cave</string>
+    <string name="tropical">Welcome to Tropical Jungle</string>
+    <string name="wildwest">Welcome to Wild West</string>
 </resources>
