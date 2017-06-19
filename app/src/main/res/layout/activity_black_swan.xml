@@ -114,17 +114,17 @@
         android:id="@+id/rji"
         android:background="#99aadd"
         android:text="Romeo and Juliet I"
-        android:onClick="openRomeoI"
+        android:onClick="openRJI"
         />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:id="@+id/rjiin"
+        android:id="@+id/rjii"
         android:background="#dd99aa"
         android:text="Romeo and Juliet II"
-        android:onClick="openRJI"
+        android:onClick="openRJII"
         />
 
     <TextView
