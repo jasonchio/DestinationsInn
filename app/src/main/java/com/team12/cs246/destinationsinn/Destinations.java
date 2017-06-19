@@ -1,5 +1,6 @@
 package com.team12.cs246.destinationsinn;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -17,21 +18,27 @@ public class Destinations extends AppCompatActivity {
 
     public void openAlaska(View view) {
         Intent i = new Intent(this, Room.class);
+        i.putExtra("welcome", R.string.alaska);
         startActivity(i);
     }
 
     public void openArabia(View view) {
         Intent i = new Intent(this, Room.class);
+        i.putExtra("welcome", R.string.arabia);
+        i.putExtra("fname", "Ben");
+        i.putExtra("lname", "Fisher");
         startActivity(i);
     }
 
     public void openAthens(View view) {
         Intent i = new Intent(this, Room.class);
+        i.putExtra("welcome", R.string.athens);
         startActivity(i);
     }
 
     public void openCongo(View view) {
         Intent i = new Intent(this, Room.class);
+        i.putExtra("welcome", R.string.congo);
         startActivity(i);
     }
 
@@ -57,7 +64,7 @@ public class Destinations extends AppCompatActivity {
 
     public void openNewYork(View view) {
         Intent i = new Intent(this, Room.class);
-        i.putExtra("welcome", R.string.newyork);
+        i.putExtra("welcome", getString(R.string.newyork));
         startActivity(i);
     }
 
@@ -73,7 +80,7 @@ public class Destinations extends AppCompatActivity {
 
     public void openRome(View view) {
         Intent i = new Intent(this, Room.class);
-        i.putExtra("welcome", R.string.rome);
+        i.putExtra("welcome", getString(R.string.rome));
         startActivity(i);
     }
 
