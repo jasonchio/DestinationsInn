@@ -9,23 +9,29 @@
     >
 
     <TextView
+        android:id="@+id/destinations"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:id="@+id/destinations"
         android:background="#99aadd"
-        android:text="Destinations Inn"
         android:onClick="openDestinations"
-        />
+        android:paddingTop="100dp"
+        android:text="Destinations Inn"
+        android:textAlignment="center"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.ActionMode.Title"
+        android:textSize="30sp" />
 
     <TextView
+        android:id="@+id/blackswan"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:id="@+id/blackswan"
         android:background="#dd99aa"
-        android:text="Black Swan Inn"
         android:onClick="openBlackSwan"
-        />
+        android:paddingTop="100dp"
+        android:text="Black Swan Inn"
+        android:textAlignment="center"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.ActionMode.Title"
+        android:textSize="30sp" />
 
 </LinearLayout>
