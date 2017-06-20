@@ -4,9 +4,13 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 import android.widget.TextView;
 
 public class Room extends AppCompatActivity {
+
+    Boolean changeOverview;
+    Boolean changeEntertainment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -15,5 +19,35 @@ public class Room extends AppCompatActivity {
         Intent intent = getIntent();
         String welcome = intent.getStringExtra("welcome");
         setTitle(welcome);
+        changeOverview = true;
+        changeEntertainment = true;
     }
+
+    public void placeOverview(View view) {
+
+        TextView tv = (TextView) findViewById(R.id.overview);
+        String text = tv.toString();
+        if (changeOverview) {
+            tv.setText(getIntent().getStringExtra("overview"));
+            changeOverview = false;
+        } else {
+            tv.setText("Overview");
+            changeOverview = true;
+        }
+    }
+
+    public void placeEntertainment(View view) {
+
+        TextView tv = (TextView) findViewById(R.id.entertainment);
+        String text = tv.toString();
+        if (changeEntertainment) {
+            tv.setText(getIntent().getStringExtra("entertainment"));
+            changeEntertainment = false;
+        } else {
+            tv.setText("Entertainment System");
+            changeEntertainment = true;
+        }
+    }
+
+
 }

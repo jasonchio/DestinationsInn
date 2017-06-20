@@ -18,85 +18,113 @@ public class Destinations extends AppCompatActivity {
 
     public void openAlaska(View view) {
         Intent i = new Intent(this, Room.class);
-        i.putExtra("welcome", getString(R.string.alaska));
+        i.putExtra("welcome", getString(R.string.welcome) + " Alaska");
+        i.putExtra("overview", getString(R.string.overviewDest));
+        i.putExtra("entertainment", getString(R.string.entertainment));
         startActivity(i);
     }
 
     public void openArabia(View view) {
         Intent i = new Intent(this, Room.class);
-        i.putExtra("welcome", getString(R.string.arabia));
+        i.putExtra("welcome", getString(R.string.welcome) + " Arabia");
+        i.putExtra("overview", getString(R.string.overviewDest));
+        i.putExtra("entertainment", getString(R.string.entertainmentTwo));
         startActivity(i);
     }
 
     public void openAthens(View view) {
         Intent i = new Intent(this, Room.class);
-        i.putExtra("welcome", getString(R.string.athens));
+        i.putExtra("welcome", getString(R.string.welcome) + " Athens");
+        i.putExtra("overview", getString(R.string.overviewDest));
+        i.putExtra("entertainment", getString(R.string.entertainment));
         startActivity(i);
     }
 
     public void openCongo(View view) {
         Intent i = new Intent(this, Room.class);
-        i.putExtra("welcome", getString(R.string.congo));
+        i.putExtra("welcome", getString(R.string.welcome) + " Congo");
+        i.putExtra("overview", getString(R.string.overviewDest));
+        i.putExtra("entertainment", getString(R.string.entertainmentTwo));
         startActivity(i);
     }
 
     public void openEgypt(View view) {
         Intent i = new Intent(this, Room.class);
-        i.putExtra("welcome", getString(R.string.egypt));
+        i.putExtra("welcome", getString(R.string.welcome) + " Egypt");
+        i.putExtra("overview", getString(R.string.overviewDest));
+        i.putExtra("entertainment", getString(R.string.entertainment));
         startActivity(i);
     }
 
     public void openEngland(View view) {
         Intent i = new Intent(this, Room.class);
-        i.putExtra("welcome", getString(R.string.england));
+        i.putExtra("welcome", getString(R.string.welcome) + " England");
+        i.putExtra("overview", getString(R.string.overviewDest));
+        i.putExtra("entertainment", getString(R.string.entertainmentTwo));
         startActivity(i);
     }
 
     public void openHawaii(View view) {
         Intent i = new Intent(this, Room.class);
-        i.putExtra("welcome", getString(R.string.hawaii));
+        i.putExtra("welcome", getString(R.string.welcome) + " Hawaii");
+        i.putExtra("overview", getString(R.string.overviewDest));
+        i.putExtra("entertainment", getString(R.string.entertainment));
         startActivity(i);
     }
 
     public void openMorocco(View view) {
         Intent i = new Intent(this, Room.class);
-        i.putExtra("welcome", getString(R.string.morocco));
+        i.putExtra("welcome", getString(R.string.welcome) + " Morocco");
+        i.putExtra("overview", getString(R.string.overviewDest));
+        i.putExtra("entertainment", getString(R.string.entertainmentTwo));
         startActivity(i);
     }
 
     public void openNewYork(View view) {
         Intent i = new Intent(this, Room.class);
-        i.putExtra("welcome", getString(R.string.newyork));
+        i.putExtra("welcome", getString(R.string.welcome) + " New York");
+        i.putExtra("overview", getString(R.string.overviewDest));
+        i.putExtra("entertainment", getString(R.string.entertainment));
         startActivity(i);
     }
 
     public void openParis(View view) {
         Intent i = new Intent(this, Room.class);
-        i.putExtra("welcome", getString(R.string.paris));
+        i.putExtra("welcome", getString(R.string.welcome) + " Paris");
+        i.putExtra("overview", getString(R.string.overviewDest));
+        i.putExtra("entertainment", getString(R.string.entertainmentTwo));
         startActivity(i);
     }
 
     public void openRio(View view) {
         Intent i = new Intent(this, Room.class);
-        i.putExtra("welcome", getString(R.string.rio));
+        i.putExtra("welcome", getString(R.string.welcome) + " Rio de Janeiro");
+        i.putExtra("overview", getString(R.string.overviewDest));
+        i.putExtra("entertainment", getString(R.string.entertainment));
         startActivity(i);
     }
 
     public void openRome(View view) {
         Intent i = new Intent(this, Room.class);
-        i.putExtra("welcome", getString(R.string.rome));
+        i.putExtra("welcome", getString(R.string.welcome) + " Rome");
+        i.putExtra("overview", getString(R.string.overviewDest));
+        i.putExtra("entertainment", getString(R.string.entertainmentTwo));
         startActivity(i);
     }
 
     public void openThailand(View view) {
         Intent i = new Intent(this, Room.class);
-        i.putExtra("welcome", getString(R.string.thailand));
+        i.putExtra("welcome", getString(R.string.welcome) + " Thailand");
+        i.putExtra("overview", getString(R.string.overviewDest));
+        i.putExtra("entertainment", getString(R.string.entertainment));
         startActivity(i);
     }
 
     public void openVenice(View view) {
         Intent i = new Intent(this, Room.class);
-        i.putExtra("welcome", getString(R.string.venice));
+        i.putExtra("welcome", getString(R.string.welcome) + " Venice");
+        i.putExtra("overview", getString(R.string.overviewDest));
+        i.putExtra("entertainment", getString(R.string.entertainmentTwo));
         startActivity(i);
     }
 }

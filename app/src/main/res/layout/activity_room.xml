@@ -13,6 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0.21"
+        android:onClick="placeOverview"
         android:text="Overview"
         android:textAlignment="center"
         android:textSize="30sp" />
@@ -22,6 +23,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0.21"
+        android:onClick="placeEntertainment"
         android:text="Entertainment System"
         android:textAlignment="center"
         android:textSize="30sp" />
