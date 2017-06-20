@@ -11,21 +11,25 @@
     <string name="newyork">Welcome to New York</string>
     <string name="paris">Welcome to Paris</string>
     <string name="rio">Welcome to Rio de Janeiro</string>
-    <string name="venice">Welcome to Thailand</string>
+    <string name="rome">Welcome to Rome</string>
+    <string name="thailand">Welcome to Thailand</string>
+    <string name="venice">Welcome to Venice</string>
+    <string name="title_feature_list">Details</string>
+    <string name="title_feature_detail">Feature Detail</string>
 
-    <string name="altanis">Welcome to Altanis</string>
-    <string name="garden">Welcome to Garden</string>
+    <string name="altanis">Welcome to Altanis Under the Sea</string>
+    <string name="garden">Welcome to the Black Swan Garden</string>
     <string name="arabian">Welcome to Arabian Nights</string>
     <string name="cave">Welcome to Cave</string>
     <string name="egyptian">Welcome to Egyptian</string>
     <string name="enchanted">Welcome to Enchanted Forest</string>
-    <string name="jungle">Welcome to Jungle</string>
+    <string name="jungle">Welcome to Jungle Falls</string>
     <string name="mayan">Welcome to Mayan Rainforest</string>
     <string name="pirates">Welcome to Pirates</string>
-    <string name="cabin">Welcome to Cabin</string>
+    <string name="cabin">Welcome to Rocky Mountain Cabin</string>
     <string name="rji">Welcome to Romeo and Juliet I</string>
     <string name="rjii">Welcome to Romeo and Juliet II</string>
     <string name="seacave">Welcome to Sea Cave</string>
-    <string name="tropical">Welcome to Tropical Jungle</string>
+    <string name="tropical">Welcome to Tropical Paradise</string>
     <string name="wildwest">Welcome to Wild West</string>
 </resources>

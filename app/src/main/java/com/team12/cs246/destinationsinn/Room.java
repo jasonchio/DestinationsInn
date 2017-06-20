@@ -8,15 +8,12 @@ import android.widget.TextView;
 
 public class Room extends AppCompatActivity {
 
-    TextView tv;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_room);
         Intent intent = getIntent();
         String welcome = intent.getStringExtra("welcome");
-
         setTitle(welcome);
     }
 }
