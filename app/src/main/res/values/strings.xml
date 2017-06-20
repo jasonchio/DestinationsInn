@@ -3,33 +3,14 @@
     <string name="main">Select a Hotel</string>
     <string name="hotel">Select a Room</string>
     <string name="room">Welcome to the Room</string>
-    <string name="alaska">Welcome to Alaska</string>
-    <string name="arabia">Welcome to Arabia</string>
-    <string name="athens">Welcome to Athens</string>
-    <string name="congo">Welcome to Congo</string>
-    <string name="rome">Welcome to Rome</string>
-    <string name="newyork">Welcome to New York</string>
-    <string name="paris">Welcome to Paris</string>
-    <string name="rio">Welcome to Rio de Janeiro</string>
-    <string name="rome">Welcome to Rome</string>
-    <string name="thailand">Welcome to Thailand</string>
-    <string name="venice">Welcome to Venice</string>
+
     <string name="title_feature_list">Details</string>
     <string name="title_feature_detail">Feature Detail</string>
 
-    <string name="altanis">Welcome to Altanis Under the Sea</string>
-    <string name="garden">Welcome to the Black Swan Garden</string>
-    <string name="arabian">Welcome to Arabian Nights</string>
-    <string name="cave">Welcome to Cave</string>
-    <string name="egyptian">Welcome to Egyptian</string>
-    <string name="enchanted">Welcome to Enchanted Forest</string>
-    <string name="jungle">Welcome to Jungle Falls</string>
-    <string name="mayan">Welcome to Mayan Rainforest</string>
-    <string name="pirates">Welcome to Pirates</string>
-    <string name="cabin">Welcome to Rocky Mountain Cabin</string>
-    <string name="rji">Welcome to Romeo and Juliet I</string>
-    <string name="rjii">Welcome to Romeo and Juliet II</string>
-    <string name="seacave">Welcome to Sea Cave</string>
-    <string name="tropical">Welcome to Tropical Paradise</string>
-    <string name="wildwest">Welcome to Wild West</string>
+    <string name="welcome">Welcome to </string>
+
+    <string name="overviewDest">Wifi Password:\n<i>guest8444</i>\nMore stuff</string>
+    <string name="overviewBlk">Wifi Password:\n<i>blksw4n1nn</i>\nMore stuff</string>
+    <string name="entertainment">This is a complicated system and you are going to need my help to figure it out</string>
+    <string name="entertainmentTwo">This is an easier system to work, and you may be able to do it alone</string>
 </resources>
