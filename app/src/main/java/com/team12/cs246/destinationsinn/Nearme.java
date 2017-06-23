@@ -39,8 +39,8 @@ public class Nearme extends FragmentActivity implements OnMapReadyCallback {
         mMap = googleMap;
 
         // Add a marker in Sydney and move the camera
-        LatLng sydney = new LatLng(-34, 151);
-        mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+        LatLng blackwan = new LatLng(42.8680932, -112.4427292);
+        mMap.addMarker(new MarkerOptions().position(blackwan).title("You are here."));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(blackwan));
     }
 }
