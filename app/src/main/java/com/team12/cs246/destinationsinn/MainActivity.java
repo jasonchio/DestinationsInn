@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void openDestinations(View view) {
-        Intent i = new Intent(this, Destinations.class);
+        Intent i = new Intent(this, Nearme.class);
         startActivity(i);
     }
 
