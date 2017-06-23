@@ -48,6 +48,4 @@ public class Room extends AppCompatActivity {
             changeEntertainment = true;
         }
     }
-
-
 }

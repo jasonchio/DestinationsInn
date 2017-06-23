@@ -4,16 +4,21 @@ import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
 public class Destinations extends AppCompatActivity {
 
+    private static final String TAG = "Destinations";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        Log.v(TAG, "Opened new activity");
         super.onCreate(savedInstanceState);
         setTitle(R.string.hotel);
         setContentView(R.layout.activity_destinations);
+        Log.v(TAG, "Successfully created");
     }
 
     public void openAlaska(View view) {

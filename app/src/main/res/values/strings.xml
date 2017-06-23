@@ -4,9 +4,6 @@
     <string name="hotel">Select a Room</string>
     <string name="room">Welcome to the Room</string>
 
-    <string name="title_feature_list">Details</string>
-    <string name="title_feature_detail">Feature Detail</string>
-
     <string name="welcome">Welcome to </string>
 
     <string name="overviewDest">Wifi Password:\n<i>guest8444</i>\nMore stuff</string>

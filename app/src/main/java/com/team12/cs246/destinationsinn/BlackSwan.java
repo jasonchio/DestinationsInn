@@ -3,15 +3,20 @@ package com.team12.cs246.destinationsinn;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 
 public class BlackSwan extends AppCompatActivity {
 
+    private static final String TAG = "BlackSwan";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        Log.v(TAG, "Opened new activity");
         super.onCreate(savedInstanceState);
         setTitle(R.string.hotel);
         setContentView(R.layout.activity_black_swan);
+        Log.v(TAG, "Successfully created");
     }
 
     public void openArabianNights(View view) {
@@ -132,6 +137,11 @@ public class BlackSwan extends AppCompatActivity {
         i.putExtra("overview", getString(R.string.overviewBlk));
         i.putExtra("entertainment", getString(R.string.entertainment));
         startActivity(i);
+    }
+
+    public void openMaps(View view) {
+        //Intent i = new Intent(this, Nearme.class);
+        //startActivity(i);
     }
 }
 
