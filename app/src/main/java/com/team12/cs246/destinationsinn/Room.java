@@ -31,7 +31,7 @@ public class Room extends AppCompatActivity {
             tv.setText(getIntent().getStringExtra("overview"));
             changeOverview = false;
         } else {
-            tv.setText("Overview");
+            tv.setText(getString(R.string.overview));
             changeOverview = true;
         }
     }
@@ -44,7 +44,7 @@ public class Room extends AppCompatActivity {
             tv.setText(getIntent().getStringExtra("entertainment"));
             changeEntertainment = false;
         } else {
-            tv.setText("Entertainment System");
+            tv.setText(getString(R.string.entertainment_system));
             changeEntertainment = true;
         }
     }

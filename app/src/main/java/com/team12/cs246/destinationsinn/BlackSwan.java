@@ -21,7 +21,7 @@ public class BlackSwan extends AppCompatActivity {
 
     public void openArabianNights(View view) {
         Intent i = new Intent(this, Room.class);
-        i.putExtra("welcome", getString(R.string.welcome) + " Arabian Nights");
+        i.putExtra("welcome", getString(R.string.welcome) + " " + getString(R.string.arabian));
         i.putExtra("overview", getString(R.string.overviewBlk));
         i.putExtra("entertainment", getString(R.string.entertainment));
         startActivity(i);
@@ -29,7 +29,7 @@ public class BlackSwan extends AppCompatActivity {
 
     public void openAtlantis(View view) {
         Intent i = new Intent(this, Room.class);
-        i.putExtra("welcome", getString(R.string.welcome) + " Atlantis Under the Sea");
+        i.putExtra("welcome", getString(R.string.welcome) + " " + getString(R.string.atlantis));
         i.putExtra("overview", getString(R.string.overviewBlk));
         i.putExtra("entertainment", getString(R.string.entertainmentTwo));
         startActivity(i);
@@ -37,7 +37,7 @@ public class BlackSwan extends AppCompatActivity {
 
     public void openGarden(View view) {
         Intent i = new Intent(this, Room.class);
-        i.putExtra("welcome", getString(R.string.welcome) + " Black Swan Garden");
+        i.putExtra("welcome", getString(R.string.welcome) + " " + getString(R.string.garden));
         i.putExtra("overview", getString(R.string.overviewBlk));
         i.putExtra("entertainment", getString(R.string.entertainment));
         startActivity(i);
@@ -45,7 +45,7 @@ public class BlackSwan extends AppCompatActivity {
 
     public void openCave(View view) {
         Intent i = new Intent(this, Room.class);
-        i.putExtra("welcome", getString(R.string.welcome) + " Cave");
+        i.putExtra("welcome", getString(R.string.welcome) + " " + getString(R.string.cave));
         i.putExtra("overview", getString(R.string.overviewBlk));
         i.putExtra("entertainment", getString(R.string.entertainmentTwo));
         startActivity(i);
@@ -53,7 +53,7 @@ public class BlackSwan extends AppCompatActivity {
 
     public void openEgyptian(View view) {
         Intent i = new Intent(this, Room.class);
-        i.putExtra("welcome", getString(R.string.welcome) + " Egyptian");
+        i.putExtra("welcome", getString(R.string.welcome) + " " + getString(R.string.egyptian));
         i.putExtra("overview", getString(R.string.overviewBlk));
         i.putExtra("entertainment", getString(R.string.entertainment));
         startActivity(i);
@@ -61,7 +61,7 @@ public class BlackSwan extends AppCompatActivity {
 
     public void openEnchanted(View view) {
         Intent i = new Intent(this, Room.class);
-        i.putExtra("welcome", getString(R.string.welcome) + " Enchanted Forest");
+        i.putExtra("welcome", getString(R.string.welcome) + " " + getString(R.string.enchanted));
         i.putExtra("overview", getString(R.string.overviewBlk));
         i.putExtra("entertainment", getString(R.string.entertainmentTwo));
         startActivity(i);
@@ -69,7 +69,7 @@ public class BlackSwan extends AppCompatActivity {
 
     public void openJungle(View view) {
         Intent i = new Intent(this, Room.class);
-        i.putExtra("welcome", getString(R.string.welcome) + " Jungle Falls");
+        i.putExtra("welcome", getString(R.string.welcome) + " " + getString(R.string.jungle));
         i.putExtra("overview", getString(R.string.overviewBlk));
         i.putExtra("entertainment", getString(R.string.entertainment));
         startActivity(i);
@@ -77,7 +77,7 @@ public class BlackSwan extends AppCompatActivity {
 
     public void openMayan(View view) {
         Intent i = new Intent(this, Room.class);
-        i.putExtra("welcome", getString(R.string.welcome) + " Mayan Rainforest");
+        i.putExtra("welcome", getString(R.string.welcome) + " " + getString(R.string.mayan));
         i.putExtra("overview", getString(R.string.overviewBlk));
         i.putExtra("entertainment", getString(R.string.entertainmentTwo));
         startActivity(i);
@@ -85,7 +85,7 @@ public class BlackSwan extends AppCompatActivity {
 
     public void openPirates(View view) {
         Intent i = new Intent(this, Room.class);
-        i.putExtra("welcome", getString(R.string.welcome) + " Pirates");
+        i.putExtra("welcome", getString(R.string.welcome) + " " + getString(R.string.pirates));
         i.putExtra("overview", getString(R.string.overviewBlk));
         i.putExtra("entertainment", getString(R.string.entertainment));
         startActivity(i);
@@ -93,7 +93,7 @@ public class BlackSwan extends AppCompatActivity {
 
     public void openCabin(View view) {
         Intent i = new Intent(this, Room.class);
-        i.putExtra("welcome", getString(R.string.welcome) + " Rocky Mountain Cabin");
+        i.putExtra("welcome", getString(R.string.welcome) + " " + getString(R.string.cabin));
         i.putExtra("overview", getString(R.string.overviewBlk));
         i.putExtra("entertainment", getString(R.string.entertainmentTwo));
         startActivity(i);
@@ -101,7 +101,7 @@ public class BlackSwan extends AppCompatActivity {
 
     public void openRJI(View view) {
         Intent i = new Intent(this, Room.class);
-        i.putExtra("welcome", getString(R.string.welcome) + " Romeo and Juliet I");
+        i.putExtra("welcome", getString(R.string.welcome) + " " + getString(R.string.rji));
         i.putExtra("overview", getString(R.string.overviewBlk));
         i.putExtra("entertainment", getString(R.string.entertainment));
         startActivity(i);
@@ -109,7 +109,7 @@ public class BlackSwan extends AppCompatActivity {
 
     public void openRJII(View view) {
         Intent i = new Intent(this, Room.class);
-        i.putExtra("welcome", getString(R.string.welcome) + " Romeo and Juliet II");
+        i.putExtra("welcome", getString(R.string.welcome) + " " + getString(R.string.rjii));
         i.putExtra("overview", getString(R.string.overviewBlk));
         i.putExtra("entertainment", getString(R.string.entertainmentTwo));
         startActivity(i);
@@ -117,7 +117,7 @@ public class BlackSwan extends AppCompatActivity {
 
     public void openSeaCave(View view) {
         Intent i = new Intent(this, Room.class);
-        i.putExtra("welcome", getString(R.string.welcome) + " Sea Cave");
+        i.putExtra("welcome", getString(R.string.welcome) + " " + getString(R.string.sea_cave));
         i.putExtra("overview", getString(R.string.overviewBlk));
         i.putExtra("entertainment", getString(R.string.entertainment));
         startActivity(i);
@@ -125,7 +125,7 @@ public class BlackSwan extends AppCompatActivity {
 
     public void openTropical(View view) {
         Intent i = new Intent(this, Room.class);
-        i.putExtra("welcome", getString(R.string.welcome) + " Tropical Paradise");
+        i.putExtra("welcome", getString(R.string.welcome) + " " + getString(R.string.tropical));
         i.putExtra("overview", getString(R.string.overviewBlk));
         i.putExtra("entertainment", getString(R.string.entertainmentTwo));
         startActivity(i);
@@ -133,15 +133,15 @@ public class BlackSwan extends AppCompatActivity {
 
     public void openWildWest(View view) {
         Intent i = new Intent(this, Room.class);
-        i.putExtra("welcome", getString(R.string.welcome) + " Wild West");
+        i.putExtra("welcome", getString(R.string.welcome) + " " + getString(R.string.wild_west));
         i.putExtra("overview", getString(R.string.overviewBlk));
         i.putExtra("entertainment", getString(R.string.entertainment));
         startActivity(i);
     }
 
     public void openMaps(View view) {
-        //Intent i = new Intent(this, Nearme.class);
-        //startActivity(i);
+        Intent i = new Intent(this, Nearme.class);
+        startActivity(i);
     }
 }
 

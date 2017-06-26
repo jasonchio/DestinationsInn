@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
@@ -14,7 +12,7 @@
         android:layout_weight="1"
         android:background="#99aadd"
         android:onClick="openAlaska"
-        android:text="Alaska"
+        android:text="@string/alaska"
         android:textAlignment="center"
         android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.ActionMode.Title" />
 
@@ -25,7 +23,7 @@
         android:layout_weight="1"
         android:background="#dd99aa"
         android:onClick="openArabia"
-        android:text="Arabia"
+        android:text="@string/arabia"
         android:textAlignment="center"
         android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.ActionMode.Title" />
 
@@ -36,7 +34,7 @@
         android:layout_weight="1"
         android:background="#99aadd"
         android:onClick="openAthens"
-        android:text="Athens"
+        android:text="@string/athens"
         android:textAlignment="center"
         android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.ActionMode.Title" />
 
@@ -47,7 +45,7 @@
         android:layout_weight="1"
         android:background="#dd99aa"
         android:onClick="openCongo"
-        android:text="Congo"
+        android:text="@string/congo"
         android:textAlignment="center"
         android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.ActionMode.Title" />
 
@@ -58,7 +56,7 @@
         android:layout_weight="1"
         android:background="#99aadd"
         android:onClick="openEgypt"
-        android:text="Egypt"
+        android:text="@string/egypt"
         android:textAlignment="center"
         android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.ActionMode.Title" />
 
@@ -69,7 +67,7 @@
         android:layout_weight="1"
         android:background="#dd99aa"
         android:onClick="openEngland"
-        android:text="England"
+        android:text="@string/england"
         android:textAlignment="center"
         android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.ActionMode.Title" />
 
@@ -80,7 +78,7 @@
         android:layout_weight="1"
         android:background="#99aadd"
         android:onClick="openHawaii"
-        android:text="Hawaii"
+        android:text="@string/hawaii"
         android:textAlignment="center"
         android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.ActionMode.Title" />
 
@@ -91,7 +89,7 @@
         android:layout_weight="1"
         android:background="#dd99aa"
         android:onClick="openMorocco"
-        android:text="Morocco"
+        android:text="@string/morocco"
         android:textAlignment="center"
         android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.ActionMode.Title" />
 
@@ -102,7 +100,7 @@
         android:layout_weight="1"
         android:background="#99aadd"
         android:onClick="openNewYork"
-        android:text="New York"
+        android:text="@string/new_york"
         android:textAlignment="center"
         android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.ActionMode.Title" />
 
@@ -113,7 +111,7 @@
         android:layout_weight="1"
         android:background="#dd99aa"
         android:onClick="openParis"
-        android:text="Paris"
+        android:text="@string/paris"
         android:textAlignment="center"
         android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.ActionMode.Title" />
 
@@ -124,7 +122,7 @@
         android:layout_weight="1"
         android:background="#99aadd"
         android:onClick="openRio"
-        android:text="Rio De Janeiro"
+        android:text="@string/rio"
         android:textAlignment="center"
         android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.ActionMode.Title" />
 
@@ -135,7 +133,7 @@
         android:layout_weight="1"
         android:background="#dd99aa"
         android:onClick="openRome"
-        android:text="Rome"
+        android:text="@string/rome"
         android:textAlignment="center"
         android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.ActionMode.Title" />
 
@@ -146,7 +144,7 @@
         android:layout_weight="1"
         android:background="#99aadd"
         android:onClick="openThailand"
-        android:text="Thailand"
+        android:text="@string/thailand"
         android:textAlignment="center"
         android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.ActionMode.Title" />
 
@@ -157,8 +155,26 @@
         android:layout_weight="1"
         android:background="#dd99aa"
         android:onClick="openVenice"
-        android:text="Venice"
+        android:text="@string/venice"
         android:textAlignment="center"
         android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.ActionMode.Title" />
+
+    <TextView
+        android:id="@+id/nearMe"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#aa99dd"
+        android:onClick="openMaps"
+        android:text="Near Me"
+        android:textAlignment="center"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.ActionMode.Title" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scaleType="centerCrop"
+        android:src="@drawable/destinations"/>
 
 </LinearLayout>

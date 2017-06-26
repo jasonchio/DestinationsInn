@@ -23,7 +23,7 @@ public class Destinations extends AppCompatActivity {
 
     public void openAlaska(View view) {
         Intent i = new Intent(this, Room.class);
-        i.putExtra("welcome", getString(R.string.welcome) + " Alaska");
+        i.putExtra("welcome", getString(R.string.welcome) + " " + getString(R.string.alaska));
         i.putExtra("overview", getString(R.string.overviewDest));
         i.putExtra("entertainment", getString(R.string.entertainment));
         startActivity(i);
@@ -31,7 +31,7 @@ public class Destinations extends AppCompatActivity {
 
     public void openArabia(View view) {
         Intent i = new Intent(this, Room.class);
-        i.putExtra("welcome", getString(R.string.welcome) + " Arabia");
+        i.putExtra("welcome", getString(R.string.welcome) + " " + getString(R.string.arabia));
         i.putExtra("overview", getString(R.string.overviewDest));
         i.putExtra("entertainment", getString(R.string.entertainmentTwo));
         startActivity(i);
@@ -39,7 +39,7 @@ public class Destinations extends AppCompatActivity {
 
     public void openAthens(View view) {
         Intent i = new Intent(this, Room.class);
-        i.putExtra("welcome", getString(R.string.welcome) + " Athens");
+        i.putExtra("welcome", getString(R.string.welcome) + " " + getString(R.string.athens));
         i.putExtra("overview", getString(R.string.overviewDest));
         i.putExtra("entertainment", getString(R.string.entertainment));
         startActivity(i);
@@ -47,7 +47,7 @@ public class Destinations extends AppCompatActivity {
 
     public void openCongo(View view) {
         Intent i = new Intent(this, Room.class);
-        i.putExtra("welcome", getString(R.string.welcome) + " Congo");
+        i.putExtra("welcome", getString(R.string.welcome) + " " + getString(R.string.congo));
         i.putExtra("overview", getString(R.string.overviewDest));
         i.putExtra("entertainment", getString(R.string.entertainmentTwo));
         startActivity(i);
@@ -55,7 +55,7 @@ public class Destinations extends AppCompatActivity {
 
     public void openEgypt(View view) {
         Intent i = new Intent(this, Room.class);
-        i.putExtra("welcome", getString(R.string.welcome) + " Egypt");
+        i.putExtra("welcome", getString(R.string.welcome) + " " + getString(R.string.egypt));
         i.putExtra("overview", getString(R.string.overviewDest));
         i.putExtra("entertainment", getString(R.string.entertainment));
         startActivity(i);
@@ -63,7 +63,7 @@ public class Destinations extends AppCompatActivity {
 
     public void openEngland(View view) {
         Intent i = new Intent(this, Room.class);
-        i.putExtra("welcome", getString(R.string.welcome) + " England");
+        i.putExtra("welcome", getString(R.string.welcome) + " " + getString(R.string.england));
         i.putExtra("overview", getString(R.string.overviewDest));
         i.putExtra("entertainment", getString(R.string.entertainmentTwo));
         startActivity(i);
@@ -71,7 +71,7 @@ public class Destinations extends AppCompatActivity {
 
     public void openHawaii(View view) {
         Intent i = new Intent(this, Room.class);
-        i.putExtra("welcome", getString(R.string.welcome) + " Hawaii");
+        i.putExtra("welcome", getString(R.string.welcome) + " " + getString(R.string.hawaii));
         i.putExtra("overview", getString(R.string.overviewDest));
         i.putExtra("entertainment", getString(R.string.entertainment));
         startActivity(i);
@@ -79,7 +79,7 @@ public class Destinations extends AppCompatActivity {
 
     public void openMorocco(View view) {
         Intent i = new Intent(this, Room.class);
-        i.putExtra("welcome", getString(R.string.welcome) + " Morocco");
+        i.putExtra("welcome", getString(R.string.welcome) + " " + getString(R.string.morocco));
         i.putExtra("overview", getString(R.string.overviewDest));
         i.putExtra("entertainment", getString(R.string.entertainmentTwo));
         startActivity(i);
@@ -87,7 +87,7 @@ public class Destinations extends AppCompatActivity {
 
     public void openNewYork(View view) {
         Intent i = new Intent(this, Room.class);
-        i.putExtra("welcome", getString(R.string.welcome) + " New York");
+        i.putExtra("welcome", getString(R.string.welcome) + " " + getString(R.string.new_york));
         i.putExtra("overview", getString(R.string.overviewDest));
         i.putExtra("entertainment", getString(R.string.entertainment));
         startActivity(i);
@@ -95,7 +95,7 @@ public class Destinations extends AppCompatActivity {
 
     public void openParis(View view) {
         Intent i = new Intent(this, Room.class);
-        i.putExtra("welcome", getString(R.string.welcome) + " Paris");
+        i.putExtra("welcome", getString(R.string.welcome) + " " + getString(R.string.paris));
         i.putExtra("overview", getString(R.string.overviewDest));
         i.putExtra("entertainment", getString(R.string.entertainmentTwo));
         startActivity(i);
@@ -103,7 +103,7 @@ public class Destinations extends AppCompatActivity {
 
     public void openRio(View view) {
         Intent i = new Intent(this, Room.class);
-        i.putExtra("welcome", getString(R.string.welcome) + " Rio de Janeiro");
+        i.putExtra("welcome", getString(R.string.welcome) + " " + getString(R.string.rio));
         i.putExtra("overview", getString(R.string.overviewDest));
         i.putExtra("entertainment", getString(R.string.entertainment));
         startActivity(i);
@@ -111,7 +111,7 @@ public class Destinations extends AppCompatActivity {
 
     public void openRome(View view) {
         Intent i = new Intent(this, Room.class);
-        i.putExtra("welcome", getString(R.string.welcome) + " Rome");
+        i.putExtra("welcome", getString(R.string.welcome) + " " + getString(R.string.rome));
         i.putExtra("overview", getString(R.string.overviewDest));
         i.putExtra("entertainment", getString(R.string.entertainmentTwo));
         startActivity(i);
@@ -119,7 +119,7 @@ public class Destinations extends AppCompatActivity {
 
     public void openThailand(View view) {
         Intent i = new Intent(this, Room.class);
-        i.putExtra("welcome", getString(R.string.welcome) + " Thailand");
+        i.putExtra("welcome", getString(R.string.welcome) + " " + getString(R.string.thailand));
         i.putExtra("overview", getString(R.string.overviewDest));
         i.putExtra("entertainment", getString(R.string.entertainment));
         startActivity(i);
@@ -127,9 +127,14 @@ public class Destinations extends AppCompatActivity {
 
     public void openVenice(View view) {
         Intent i = new Intent(this, Room.class);
-        i.putExtra("welcome", getString(R.string.welcome) + " Venice");
+        i.putExtra("welcome", getString(R.string.welcome) + " " + getString(R.string.venice));
         i.putExtra("overview", getString(R.string.overviewDest));
         i.putExtra("entertainment", getString(R.string.entertainmentTwo));
+        startActivity(i);
+    }
+
+    public void openMaps(View view) {
+        Intent i = new Intent(this, Nearme.class);
         startActivity(i);
     }
 }

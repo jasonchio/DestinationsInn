@@ -26,19 +26,6 @@
         <activity android:name=".Destinations" />
         <activity android:name=".BlackSwan" />
         <activity android:name=".Room" />
-        <activity
-            android:name=".FeatureListActivity"
-            android:label="@string/title_feature_list"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".FeatureDetailActivity"
-            android:label="@string/title_feature_detail"
-            android:parentActivityName=".FeatureListActivity"
-            android:theme="@style/AppTheme.NoActionBar">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.team12.cs246.destinationsinn.FeatureListActivity" />
-        </activity>
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
