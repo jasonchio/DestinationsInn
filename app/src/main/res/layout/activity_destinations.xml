@@ -1,38 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<ScrollView
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
-
-    <TextView
-        android:id="@+id/alaska"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:background="#99aadd"
-        android:onClick="openAlaska"
-        android:text="@string/alaska"
-        android:textAlignment="center"
-        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.ActionMode.Title" />
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/arabia"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:background="#dd99aa"
-        android:onClick="openArabia"
-        android:text="@string/arabia"
-        android:textAlignment="center"
-        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.ActionMode.Title" />
+        <TextView
+            android:id="@+id/alaska"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/alaska"
+            android:scaleType="centerCrop"
+            android:onClick="openAlaska"
+            android:text="@string/alaska"
+            android:textAlignment="center"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.ActionMode.Title" />
 
-    <TextView
-        android:id="@+id/athens"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:background="#99aadd"
+        <TextView
+            android:id="@+id/arabia"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/arabia"
+            android:scaleType="centerCrop"
+            android:onClick="openArabia"
+            android:text="@string/arabia"
+            android:textAlignment="center"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.ActionMode.Title" />
+
+        <TextView
+            android:id="@+id/athens"
+            android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/athens"
+            android:scaleType="centerCrop"
         android:onClick="openAthens"
         android:text="@string/athens"
         android:textAlignment="center"
@@ -41,9 +45,9 @@
     <TextView
         android:id="@+id/congo"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:background="#dd99aa"
+        android:layout_height="150dp"
+        android:background="@drawable/congo"
+        android:scaleType="centerCrop"
         android:onClick="openCongo"
         android:text="@string/congo"
         android:textAlignment="center"
@@ -52,9 +56,9 @@
     <TextView
         android:id="@+id/egypt"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:background="#99aadd"
+        android:layout_height="150dp"
+        android:background="@drawable/egypt"
+        android:scaleType="centerCrop"
         android:onClick="openEgypt"
         android:text="@string/egypt"
         android:textAlignment="center"
@@ -63,9 +67,9 @@
     <TextView
         android:id="@+id/england"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:background="#dd99aa"
+        android:layout_height="150dp"
+        android:background="@drawable/england"
+        android:scaleType="centerCrop"
         android:onClick="openEngland"
         android:text="@string/england"
         android:textAlignment="center"
@@ -74,9 +78,9 @@
     <TextView
         android:id="@+id/hawaii"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:background="#99aadd"
+        android:layout_height="150dp"
+        android:background="@drawable/hawaii"
+        android:scaleType="centerCrop"
         android:onClick="openHawaii"
         android:text="@string/hawaii"
         android:textAlignment="center"
@@ -85,9 +89,9 @@
     <TextView
         android:id="@+id/morocco"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:background="#dd99aa"
+        android:layout_height="150dp"
+        android:background="@drawable/morocco"
+        android:scaleType="centerCrop"
         android:onClick="openMorocco"
         android:text="@string/morocco"
         android:textAlignment="center"
@@ -96,9 +100,9 @@
     <TextView
         android:id="@+id/newYork"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:background="#99aadd"
+        android:layout_height="150dp"
+        android:background="@drawable/new_york"
+        android:scaleType="centerCrop"
         android:onClick="openNewYork"
         android:text="@string/new_york"
         android:textAlignment="center"
@@ -107,9 +111,9 @@
     <TextView
         android:id="@+id/paris"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:background="#dd99aa"
+        android:layout_height="150dp"
+        android:background="@drawable/paris"
+        android:scaleType="centerCrop"
         android:onClick="openParis"
         android:text="@string/paris"
         android:textAlignment="center"
@@ -118,9 +122,9 @@
     <TextView
         android:id="@+id/rio"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:background="#99aadd"
+        android:layout_height="150dp"
+        android:background="@drawable/rio"
+        android:scaleType="centerCrop"
         android:onClick="openRio"
         android:text="@string/rio"
         android:textAlignment="center"
@@ -129,9 +133,9 @@
     <TextView
         android:id="@+id/rome"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:background="#dd99aa"
+        android:layout_height="150dp"
+        android:background="@drawable/rome"
+        android:scaleType="centerCrop"
         android:onClick="openRome"
         android:text="@string/rome"
         android:textAlignment="center"
@@ -140,9 +144,9 @@
     <TextView
         android:id="@+id/thailand"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:background="#99aadd"
+        android:layout_height="150dp"
+        android:background="@drawable/thailand"
+        android:scaleType="centerCrop"
         android:onClick="openThailand"
         android:text="@string/thailand"
         android:textAlignment="center"
@@ -151,8 +155,7 @@
     <TextView
         android:id="@+id/venice"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
+        android:layout_height="150dp"
         android:background="#dd99aa"
         android:onClick="openVenice"
         android:text="@string/venice"
@@ -170,11 +173,5 @@
         android:textAlignment="center"
         android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.ActionMode.Title" />
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:scaleType="centerCrop"
-        android:src="@drawable/destinations"/>
-
 </LinearLayout>
+    </ScrollView>
