@@ -1,39 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    >
+    android:orientation="vertical">
 
-    <TextView
+    <ImageView
         android:id="@+id/destinations"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="@drawable/destinations"
+        android:src="@drawable/destinations"
+        android:scaleType="centerCrop"
         android:onClick="openDestinations"
-        android:paddingTop="100dp"
-        android:text="@string/destinations"
-        android:textAlignment="center"
-        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.ActionMode.Title"
-        android:textColor="#ffffff"
-        android:textSize="30sp" />
+        android:contentDescription="@string/destinations"/>
 
-    <TextView
+    <ImageView
         android:id="@+id/blackswan"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="@drawable/blackswan"
+        android:src="@drawable/blackswan"
+        android:scaleType="centerCrop"
         android:onClick="openBlackSwan"
-        android:paddingTop="100dp"
-        android:text="@string/black_swan"
-        android:textAlignment="center"
-        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.ActionMode.Title"
-        android:textColor="#ffffff"
-        android:textSize="30sp" />
+        android:contentDescription="@string/black_swan"/>
 
 </LinearLayout>
