@@ -9,16 +9,18 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <TextView
+        <ImageView
             android:id="@+id/nearMe"
             android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:background="#aa99dd"
-            android:onClick="openMaps"
-            android:text="@string/near"
-            android:textAlignment="center"
-            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.ActionMode.Title" />
+            android:layout_height="150dp"
+            android:background="@drawable/near_me"
+            android:scaleType="centerCrop"
+            android:onClick="openMaps" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="#442222" />
 
         <ImageView
             android:id="@+id/alaska"
@@ -29,6 +31,11 @@
             android:onClick="openAlaska"
             android:contentDescription="@string/alaska"/>
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="#442222" />
+
         <ImageView
             android:id="@+id/arabia"
             android:layout_width="match_parent"
@@ -37,6 +44,11 @@
             android:scaleType="centerCrop"
             android:onClick="openArabia"
             android:contentDescription="@string/arabia"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="#442222" />
 
 
         <ImageView
@@ -48,6 +60,11 @@
             android:onClick="openAthens"
             android:contentDescription="@string/athens"/>
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="#442222" />
+
         <ImageView
             android:id="@+id/congo"
             android:layout_width="match_parent"
@@ -56,6 +73,11 @@
             android:scaleType="centerCrop"
             android:onClick="openCongo"
             android:contentDescription="@string/congo"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="#442222" />
 
         <ImageView
             android:id="@+id/egypt"
@@ -66,6 +88,11 @@
             android:onClick="openEgypt"
             android:contentDescription="@string/egypt"/>
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="#442222" />
+
         <ImageView
             android:id="@+id/england"
             android:layout_width="match_parent"
@@ -74,6 +101,11 @@
             android:scaleType="centerCrop"
             android:onClick="openEngland"
             android:contentDescription="@string/england"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="#442222" />
 
         <ImageView
             android:id="@+id/hawaii"
@@ -84,6 +116,11 @@
             android:onClick="openHawaii"
             android:contentDescription="@string/hawaii" />
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="#442222" />
+
         <ImageView
             android:id="@+id/morocco"
             android:layout_width="match_parent"
@@ -92,6 +129,11 @@
             android:scaleType="centerCrop"
             android:onClick="openMorocco"
             android:contentDescription="@string/morocco"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="#442222" />
 
         <ImageView
             android:id="@+id/newYork"
@@ -102,6 +144,11 @@
             android:onClick="openNewYork"
             android:contentDescription="@string/new_york"/>
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="#442222" />
+
         <ImageView
             android:id="@+id/paris"
             android:layout_width="match_parent"
@@ -110,6 +157,11 @@
             android:scaleType="centerCrop"
             android:onClick="openParis"
             android:contentDescription="@string/paris"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="#442222" />
 
         <ImageView
             android:id="@+id/rio"
@@ -120,6 +172,11 @@
             android:onClick="openRio"
             android:contentDescription="@string/rio"/>
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="#442222" />
+
         <ImageView
             android:id="@+id/rome"
             android:layout_width="match_parent"
@@ -129,6 +186,11 @@
             android:onClick="openRome"
             android:contentDescription="@string/rome"/>
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="#442222" />
+
         <ImageView
             android:id="@+id/thailand"
             android:layout_width="match_parent"
@@ -137,6 +199,11 @@
             android:scaleType="centerCrop"
             android:onClick="openThailand"
             android:contentDescription="@string/thailand"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="#442222" />
 
         <ImageView
             android:id="@+id/venice"

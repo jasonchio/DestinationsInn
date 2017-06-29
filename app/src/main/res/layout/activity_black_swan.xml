@@ -9,151 +9,223 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/nearMe"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:background="#dd99aa"
-        android:onClick="openMaps"
-        android:text="@string/near"
-        android:textAlignment="center"
-        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.ActionMode.Title" />
+        <TextView
+            android:id="@+id/nearMe"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/near_me"
+            android:scaleType="centerCrop"
+            android:onClick="openMaps" />
 
-    <ImageView
-        android:id="@+id/arabian"
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:src="@drawable/arabian"
-        android:scaleType="centerCrop"
-        android:onClick="openArabianNights"
-        android:contentDescription="@string/arabian" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="#442222" />
 
-    <ImageView
-        android:id="@+id/atlantis"
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:src="@drawable/atlantis"
-        android:scaleType="centerCrop"
-        android:onClick="openAtlantis"
-        android:contentDescription="@string/atlantis"/>
+        <ImageView
+            android:id="@+id/arabian"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/arabian"
+            android:scaleType="centerCrop"
+            android:onClick="openArabianNights"
+            android:contentDescription="@string/arabian" />
 
-    <ImageView
-        android:id="@+id/garden"
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:src="@drawable/garden"
-        android:scaleType="centerCrop"
-        android:onClick="openGarden"
-        android:contentDescription="@string/garden"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="#442222" />
 
-    <ImageView
-        android:id="@+id/cave"
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:src="@drawable/cave"
-        android:scaleType="centerCrop"
-        android:onClick="openCave"
-        android:contentDescription="@string/cave"/>
+        <ImageView
+            android:id="@+id/atlantis"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/atlantis"
+            android:scaleType="centerCrop"
+            android:onClick="openAtlantis"
+            android:contentDescription="@string/atlantis"/>
 
-    <ImageView
-        android:id="@+id/egyptian"
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:src="@drawable/egyptian"
-        android:scaleType="centerCrop"
-        android:onClick="openEgyptian"
-        android:contentDescription="@string/egyptian" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="#442222" />
 
-    <ImageView
-        android:id="@+id/enchanted"
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:src="@drawable/enchanted"
-        android:scaleType="centerCrop"
-        android:onClick="openEnchanted"
-        android:contentDescription="@string/enchanted"/>
+        <ImageView
+            android:id="@+id/garden"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/garden"
+            android:scaleType="centerCrop"
+            android:onClick="openGarden"
+            android:contentDescription="@string/garden"/>
 
-    <ImageView
-        android:id="@+id/jungle"
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:src="@drawable/jungle"
-        android:scaleType="centerCrop"
-        android:onClick="openJungle"
-        android:contentDescription="@string/jungle"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="#442222" />
 
-    <ImageView
-        android:id="@+id/mayan"
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:src="@drawable/mayan"
-        android:scaleType="centerCrop"
-        android:onClick="openMayan"
-        android:contentDescription="@string/mayan"/>
+        <ImageView
+            android:id="@+id/cave"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/cave"
+            android:scaleType="centerCrop"
+            android:onClick="openCave"
+            android:contentDescription="@string/cave"/>
 
-    <ImageView
-        android:id="@+id/pirates"
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:src="@drawable/pirates"
-        android:scaleType="centerCrop"
-        android:onClick="openPirates"
-        android:contentDescription="@string/pirates"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="#442222" />
 
-    <ImageView
-        android:id="@+id/cabin"
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:src="@drawable/cabin"
-        android:scaleType="centerCrop"
-        android:onClick="openCabin"
-        android:contentDescription="@string/cabin"/>
+        <ImageView
+            android:id="@+id/egyptian"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/egyptian"
+            android:scaleType="centerCrop"
+            android:onClick="openEgyptian"
+            android:contentDescription="@string/egyptian" />
 
-    <ImageView
-        android:id="@+id/rji"
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:src="@drawable/rji_tub"
-        android:scaleType="centerCrop"
-        android:onClick="openRJI"
-        android:contentDescription="@string/rji"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="#442222" />
 
-    <ImageView
-        android:id="@+id/rjii"
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:src="@drawable/rjii"
-        android:scaleType="centerCrop"
-        android:onClick="openRJII"
-        android:contentDescription="@string/rjii"/>
+        <ImageView
+            android:id="@+id/enchanted"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/enchanted"
+            android:scaleType="centerCrop"
+            android:onClick="openEnchanted"
+            android:contentDescription="@string/enchanted"/>
 
-    <ImageView
-        android:id="@+id/seaCave"
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:src="@drawable/sea_cave"
-        android:scaleType="centerCrop"
-        android:onClick="openSeaCave"
-        android:contentDescription="@string/sea_cave" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="#442222" />
 
-    <ImageView
-        android:id="@+id/tropical"
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:src="@drawable/tropical"
-        android:scaleType="centerCrop"
-        android:onClick="openTropical"
-        android:contentDescription="@string/tropical"/>
+        <ImageView
+            android:id="@+id/jungle"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/jungle"
+            android:scaleType="centerCrop"
+            android:onClick="openJungle"
+            android:contentDescription="@string/jungle"/>
 
-    <ImageView
-        android:id="@+id/wildWest"
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:src="@drawable/wild_west"
-        android:scaleType="centerCrop"
-        android:onClick="openWildWest"
-        android:contentDescription="@string/wild_west"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="#442222" />
+
+        <ImageView
+            android:id="@+id/mayan"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/mayan"
+            android:scaleType="centerCrop"
+            android:onClick="openMayan"
+            android:contentDescription="@string/mayan"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="#442222" />
+
+        <ImageView
+            android:id="@+id/pirates"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/pirates"
+            android:scaleType="centerCrop"
+            android:onClick="openPirates"
+            android:contentDescription="@string/pirates"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="#442222" />
+
+        <ImageView
+            android:id="@+id/cabin"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/cabin"
+            android:scaleType="centerCrop"
+            android:onClick="openCabin"
+            android:contentDescription="@string/cabin"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="#442222" />
+
+        <ImageView
+            android:id="@+id/rji"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/rji_tub"
+            android:scaleType="centerCrop"
+            android:onClick="openRJI"
+            android:contentDescription="@string/rji"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="#442222" />
+
+        <ImageView
+            android:id="@+id/rjii"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/rjii"
+            android:scaleType="centerCrop"
+            android:onClick="openRJII"
+            android:contentDescription="@string/rjii"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="#442222" />
+
+        <ImageView
+            android:id="@+id/seaCave"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/sea_cave"
+            android:scaleType="centerCrop"
+            android:onClick="openSeaCave"
+            android:contentDescription="@string/sea_cave" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="#442222" />
+
+        <ImageView
+            android:id="@+id/tropical"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/tropical"
+            android:scaleType="centerCrop"
+            android:onClick="openTropical"
+            android:contentDescription="@string/tropical"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="#442222" />
+
+        <ImageView
+            android:id="@+id/wildWest"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/wild_west"
+            android:scaleType="centerCrop"
+            android:onClick="openWildWest"
+            android:contentDescription="@string/wild_west"/>
 
 </LinearLayout>
 </ScrollView>

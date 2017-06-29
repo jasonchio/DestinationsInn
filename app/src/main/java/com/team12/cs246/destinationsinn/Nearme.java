@@ -49,7 +49,7 @@ public class Nearme extends FragmentActivity implements OnMapReadyCallback {
         LatLng blackswan = new LatLng(42.8680932, -112.4427292);
         mMap.addMarker(new MarkerOptions().position(blackswan).title("You are here."));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(blackswan));
-        mMap.moveCamera( CameraUpdateFactory.newLatLngZoom(new LatLng(42.8680932, -112.4427292) , 14.0f) );
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(42.8680932, -112.4427292) , 14.0f) );
     }
 
     }
