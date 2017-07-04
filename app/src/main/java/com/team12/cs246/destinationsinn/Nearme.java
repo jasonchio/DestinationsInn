@@ -1,5 +1,6 @@
 package com.team12.cs246.destinationsinn;
 
+import android.content.Intent;
 import android.location.Location;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -45,16 +46,18 @@ public class Nearme extends FragmentActivity implements OnMapReadyCallback {
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
 
-        // Add a marker in Sydney and move the camera
-        LatLng blackswan = new LatLng(42.8680932, -112.4427292);
-        mMap.addMarker(new MarkerOptions().position(blackswan).title("You are here."));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(blackswan));
+        Bundle b = getIntent().getExtras();
 
+        // Add a marker in Sydney and move the camera
+        LatLng near_me = new LatLng(b.getFloat("ltd"), b.getFloat("lng"));
+        mMap.addMarker(new MarkerOptions().position(near_me).title(b.getString("location")));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(near_me));
+/*
         LatLng desination = new LatLng(43.491045, -112.0425047);
         mMap.addMarker(new MarkerOptions().position(desination).title("You are here."));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(desination));
-
-        mMap.moveCamera( CameraUpdateFactory.newLatLngZoom(new LatLng(42.8680932, -112.4427292) , 17.0f) );
+*/
+        mMap.moveCamera( CameraUpdateFactory.newLatLngZoom(near_me, 17.0f));
     }
 
     }

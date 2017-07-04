@@ -141,6 +141,9 @@ public class BlackSwan extends AppCompatActivity {
 
     public void openMaps(View view) {
         Intent i = new Intent(this, Nearme.class);
+        i.putExtra("ltd", 42.8678918f);
+        i.putExtra("lng", -112.44220110000003f);
+        i.putExtra("location", getString(R.string.black_swan));
         startActivity(i);
     }
 }
