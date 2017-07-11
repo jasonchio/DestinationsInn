@@ -24,7 +24,9 @@ public class Destinations extends AppCompatActivity {
     public void openAlaska(View view) {
         Intent i = new Intent(this, Room.class);
         i.putExtra("welcome", getString(R.string.welcome) + " " + getString(R.string.alaska));
-        i.putExtra("overview", getString(R.string.overviewDest));
+        String ov = getString(R.string.overviewDest) + getString(R.string.wifi_dest);
+        i.putExtra("overview", ov);
+        i.putExtra("wifi", getString(R.string.wifi_dest));
         i.putExtra("entertainment", getString(R.string.entertainment));
         startActivity(i);
     }
@@ -32,7 +34,7 @@ public class Destinations extends AppCompatActivity {
     public void openArabia(View view) {
         Intent i = new Intent(this, Room.class);
         i.putExtra("welcome", getString(R.string.welcome) + " " + getString(R.string.arabia));
-        i.putExtra("overview", getString(R.string.overviewDest));
+        i.putExtra("overview", getString(R.string.overview_destinations));
         i.putExtra("entertainment", getString(R.string.entertainmentTwo));
         startActivity(i);
     }
@@ -135,6 +137,9 @@ public class Destinations extends AppCompatActivity {
 
     public void openMaps(View view) {
         Intent i = new Intent(this, Nearme.class);
+        i.putExtra("ltd", 43.491045f);
+        i.putExtra("lng", -112.04031600000002f);
+        i.putExtra("location", getString(R.string.destinations));
         startActivity(i);
     }
 }

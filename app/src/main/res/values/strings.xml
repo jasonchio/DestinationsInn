@@ -10,8 +10,10 @@
     <string name="lights">Lights</string>
     <string name="food">Food</string>
 
-    <string name="overviewDest">Wifi Password:\n<i>guest8444</i>\nMore stuff</string>
-    <string name="overviewBlk">Wifi Password:\n<i>blksw4n1nn</i>\nMore stuff</string>
+    <string name="overviewDest">Thanks for staying at Destinations Inn. Here are some things you should know.\n\n</string>
+    <string name="overviewBlk">Thanks for staying at The Black Swan Inn. Here are some things you should know.\n\n</string>
+    <string name="wifi_dest"><b>Wifi</b>\nInternet Connection: <i>Destinations Inn-Guest</i>\nPassword: <i>guest8444</i>\n\n</string>
+    <string name="wifi_black"><b>Wifi</b>\nInternet Connection: <i>Black Swan Inn</i>\nPassword: <i>blksw4n1nn</i>\n\n</string>
     <string name="entertainment">This is a complicated system and you are going to need my help to figure it out</string>
     <string name="entertainmentTwo">This is an easier system to work, and you may be able to do it alone</string>
     <string name="near">Near Me</string>
@@ -49,5 +51,163 @@
     <string name="sea_cave">Sea Cave</string>
     <string name="tropical">Tropical Paradise</string>
     <string name="wild_west">Wild West</string>
+
+    <string name="overview_destinations">Relax\n
+
+Thank you for staying with us at the Destinations Inn.\n
+
+Please let our staff know if there is anything we can do to make your stay more enjoyable.\n\n
+
+❦ O F F I C E H O U R S ❦\n\n
+
+Monday-Saturday .................... 8:00am - 10:00pm\n
+
+Sunday..................................Open for check in only\n
+
+Check out is 11am\n
+
+Our staff is available to you 24 hours a day.\n
+
+Dial “72" for office staff – During office hours\n
+
+After hours, first try dialing "72," if no answer then please call (208) 221-3744.\n\n
+
+❦ W I - F I ❦\n\n
+
+Internet Connection: Destinations Inn-Guest\n
+
+Password: guest8444\n
+
+In order to connect to the internet you must first connect your device to the internet connection:
+
+Destinations Inn-Guest. Once device is connected open up any internet browser (Explorers, Firefox, etc)
+
+and type password (guest8444) into password box when prompted.\n\n
+
+❦ P O L I C I E S ❦\n\n
+
+Please no visitors past 9:00pm.
+
+Please be considerate of other guests during your stay by keeping the
+
+volume on your television low, especially past 10:00pm.
+
+Pets are not allowed in rooms.
+
+Please no candles.
+
+All suites are non-smoking. Violators will be charged a $300 fee.
+
+
+
+❦ O T H E R I N F O R M A T I O N ❦
+
+
+
+LIGHTING
+
+As you enter the room the lighting was set on a “Welcome” scene. All of the
+
+lighting is pre-programmed to provide four different ambiances. By each door and next
+
+to the beds you will find the control panels. Each button is labeled for easy use.
+
+
+
+WATER FEATURES
+
+The water features in Hawaii, Pairs, and Rome turn on when the lights are on the
+
+“Welcome” setting. Each of these features will turn off when the lights are “All on” or
+
+“Off.”
+
+The water features in Morocco and Congo have separate switches. The switch in
+
+Morocco is to the left of the hanging tapestry. The switch in the Congo is on the wall
+
+below the water feature.
+
+SAUNA
+
+Arabia and Egypt: In order for the sauna heater to work turn the knob on but must
+
+be kept within the black area. The other numbers are for convenience to have the heater
+
+turn on at a later pre-determined time.
+
+For example if you want the heater to turn on in two hours set the knob on two and it will
+
+begin to count down and once it reached the black are the heater will automatically turn
+
+on.
+
+
+
+
+
+PHONE CALLS
+
+Local calls may be made by dialing 9 for an outside line. If you receive a
+
+busy signal, wait a few minutes and try again. Long distance calls may only be made
+
+with a phone card.
+
+
+
+
+
+
+
+3
+
+FIREPLACE
+
+Alaska, Morocco, Athens The fireplace is controlled by the thermostat to the right
+
+of the fireplace. During summer months, the fireplace may be turned off.
+
+
+
+
+
+
+
+AIR CONDITIONING AND HEATING UNIT
+
+The temperature of your suite may be regulated by adjusting the air unit. It is also
+
+helpful to keep the air unit on fan for “white noise.”
+
+DESTINAIONS INN FACT
+
+Each room features “Danze” plumbing fixtures, which are found throughout Europe
+
+in some of the elegant mansions.
+
+
+
+
+
+
+
+AVAILABLE IN OFFICE
+
+Ice- in Lobby
+
+Blow Dryer
+
+Corkscrew
+
+Wine glasses
+
+Extra bath towels
+
+Iron/ironing board
+
+Movies available for check-out
+
+Soda and candy available for purchase</string>
 
 </resources>
