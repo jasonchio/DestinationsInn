@@ -40,7 +40,9 @@
 
         <activity
             android:name=".Nearme"
-            android:label="@string/title_activity_nearme"></activity>
+            android:label="@string/title_activity_nearme" />
+        <activity android:name=".System" />
+        <activity android:name=".SystemIntro"></activity>
     </application>
 
 </manifest>
