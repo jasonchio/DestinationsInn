@@ -37,15 +37,12 @@ public class Room extends AppCompatActivity {
     }
 
     public void placeEntertainment(View view) {
-
-        TextView tv = (TextView) findViewById(R.id.entertainment);
-        String text = tv.toString();
-        if (changeEntertainment) {
-            tv.setText(getIntent().getStringExtra("entertainment"));
-            changeEntertainment = false;
-        } else {
-            tv.setText(getString(R.string.entertainment_system));
-            changeEntertainment = true;
-        }
+        Intent i = new Intent(this, SystemIntro.class);
+        i.putExtra("warning", getString(R.string.entertainment_warning));
+        i.putExtra("first", getString(R.string.entertainment_tv));
+        i.putExtra("second", getString(R.string.entertainment_dvd));
+        i.putExtra("third", getString(R.string.entertainment_off));
+        i.putExtra("trouble", getString(R.string.entertainment_trouble));
+        startActivity(i);
     }
 }

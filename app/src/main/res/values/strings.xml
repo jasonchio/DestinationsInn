@@ -14,8 +14,19 @@
     <string name="overviewBlk">Thanks for staying at The Black Swan Inn. Here are some things you should know.\n\n</string>
     <string name="wifi_dest"><b>Wifi</b>\nInternet Connection: <i>Destinations Inn-Guest</i>\nPassword: <i>guest8444</i>\n\n</string>
     <string name="wifi_black"><b>Wifi</b>\nInternet Connection: <i>Black Swan Inn</i>\nPassword: <i>blksw4n1nn</i>\n\n</string>
+    <string name="entertainment_warning"><b>When turning on system to watch TV or DVD, please allow 30 seconds for everything to turn on.</b>\n\n
+    To switch from TV to DVD, push the "HOME" button and select from the touch screen desired activity. Allow five seconds for everything to switch over.</string>
+    <string name="entertainment_tv">Watch TV</string>
+    <string name="entertainment_dvd">Watch DVD</string>
+    <string name="entertainment_off">Turn everything off</string>
+    <string name="entertainment_trouble">Trouble Shooting</string>
     <string name="entertainment">This is a complicated system and you are going to need my help to figure it out</string>
     <string name="entertainmentTwo">This is an easier system to work, and you may be able to do it alone</string>
+    <string name="steps_tv_one">1) If screen is not already down, lower with screen remote.</string>
+    <string name="steps_tv_two">2) Slide finder across touch screen to turn on.</string>
+    <string name="steps_tv_three">3) Touch "HOME" on the touch screen and select "WATCH TV. Allow a few seconds for everything to turn on.</string>
+    <string name="steps_tv_four">4) If everything did not turn on, press the "MENU" button (three lines) and select "HELP" and follow the directions. (Cable Box is on when light is green.)</string>
+    <string name="steps_tv_five">5) Use the "Guide" button to bring up menu and press "OK" to select a channel. Or you can type in a specific channel you want to watch. Press the "DEVICES" button and select "CABLEONE STB" then selcet "123" and type in desired channel. To exit, press either "EXIT" or "HOME"</string>
     <string name="near">Near Me</string>
     <string name="title_activity_nearme">Map</string>
 
