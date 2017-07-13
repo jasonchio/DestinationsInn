@@ -9,6 +9,7 @@
     -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -42,7 +43,8 @@
             android:name=".Nearme"
             android:label="@string/title_activity_nearme" />
         <activity android:name=".System" />
-        <activity android:name=".SystemIntro"></activity>
+        <activity android:name=".SystemIntro" />
+        <activity android:name=".WebPage"></activity>
     </application>
 
 </manifest>

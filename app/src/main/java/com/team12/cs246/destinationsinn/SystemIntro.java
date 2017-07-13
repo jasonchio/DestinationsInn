@@ -28,30 +28,30 @@ public class SystemIntro extends AppCompatActivity {
     }
 
     public void stepTV(View view) {
-        Intent i = new Intent(this, SystemIntro.class);
+        Intent i = new Intent(this, System.class);
         i.putExtra("step", getString(R.string.entertainment_tv));
-        i.putExtra("steps", getString(R.string.entertainment_trouble));
+        i.putExtra("steps", getString(R.string.steps_tv));
         startActivity(i);
     }
 
     public void stepDVD(View view) {
-        Intent i = new Intent(this, SystemIntro.class);
+        Intent i = new Intent(this, System.class);
         i.putExtra("step", getString(R.string.entertainment_dvd));
-        i.putExtra("steps", getString(R.string.entertainment_warning));
+        i.putExtra("steps", getString(R.string.steps_dvd));
         startActivity(i);
     }
 
     public void stepOff(View view) {
-        Intent i = new Intent(this, SystemIntro.class);
+        Intent i = new Intent(this, System.class);
         i.putExtra("step", getString(R.string.entertainment_off));
-        i.putExtra("steps", getString(R.string.entertainment_warning));
+        i.putExtra("steps", getString(R.string.steps_off));
         startActivity(i);
     }
 
     public void stepTrouble(View view) {
-        Intent i = new Intent(this, SystemIntro.class);
+        Intent i = new Intent(this, System.class);
         i.putExtra("step", getString(R.string.entertainment_trouble));
-        i.putExtra("steps", getString(R.string.entertainment_warning));
+        i.putExtra("steps", getString(R.string.steps_trouble));
         startActivity(i);
     }
 }
