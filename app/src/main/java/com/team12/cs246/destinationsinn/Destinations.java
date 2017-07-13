@@ -34,6 +34,7 @@ public class Destinations extends AppCompatActivity {
         i.putExtra("overview", ov);
         i.putExtra("wifi", getString(R.string.wifi_dest));
         i.putExtra("entertainment", getString(R.string.entertainment));
+        i.putExtra("lights", getString(R.string.lighting));
         startActivity(i);
     }
 

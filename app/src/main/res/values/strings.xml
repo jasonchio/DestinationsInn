@@ -11,6 +11,8 @@
     <string name="overview">Overview</string>
     <string name="entertainment_system">Entertainment System</string>
     <string name="lights">Lights</string>
+    <string name="lighting">As you enter the room the lighting was set on a “Welcome” scene. All of the lighting is pre-programmed to provide four different ambiances.
+        By each door and next to the beds you will find the control panels. Each button is labeled for easy use.</string>
     <string name="food">Food</string>
 
     <string name="overviewDest">Thanks for staying at Destinations Inn. Here are some things you should know.\n\n</string>

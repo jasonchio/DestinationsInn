@@ -37,7 +37,8 @@
             android:layout_weight="0.21"
             android:text="@string/lights"
             android:textAlignment="center"
-            android:textSize="30sp" />
+            android:textSize="30sp"
+            android:onClick="placeLights"/>
 
         <TextView
             android:id="@+id/food"

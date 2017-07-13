@@ -44,7 +44,8 @@
             android:label="@string/title_activity_nearme" />
         <activity android:name=".System" />
         <activity android:name=".SystemIntro" />
-        <activity android:name=".WebPage"></activity>
+        <activity android:name=".WebPage" />
+        <activity android:name=".dummy.Lights"></activity>
     </application>
 
 </manifest>
