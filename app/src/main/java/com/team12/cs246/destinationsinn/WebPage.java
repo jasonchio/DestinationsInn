@@ -11,7 +11,6 @@ public class WebPage extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_web_page);
-        setTitle(R.string.reserve);
 
         WebView web = (WebView) findViewById(R.id.web_page);
         web.setWebViewClient(new WebViewClient());
