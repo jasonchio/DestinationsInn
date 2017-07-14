@@ -3,11 +3,16 @@
     <string name="main">Select a Hotel</string>
     <string name="hotel">Select a Room</string>
     <string name="room">Welcome to the Room</string>
+    <string name="url_swan_reservation">https://convoyant.com/resnexus/reserve/?ID=140</string>
+    <string name="url_destinations_reservation">https://convoyant.com/resnexus/reserve/?ID=310</string>
 
+    <string name="reserve">Reserve a Room</string>
     <string name="welcome">Welcome to </string>
     <string name="overview">Overview</string>
     <string name="entertainment_system">Entertainment System</string>
     <string name="lights">Lights</string>
+    <string name="lighting">As you enter the room the lighting was set on a “Welcome” scene. All of the lighting is pre-programmed to provide four different ambiances.
+        By each door and next to the beds you will find the control panels. Each button is labeled for easy use.</string>
     <string name="food">Food</string>
 
     <string name="overviewDest">Thanks for staying at Destinations Inn. Here are some things you should know.\n\n</string>
@@ -22,13 +27,22 @@
     <string name="entertainment_trouble">Trouble Shooting</string>
     <string name="entertainment">This is a complicated system and you are going to need my help to figure it out</string>
     <string name="entertainmentTwo">This is an easier system to work, and you may be able to do it alone</string>
-    <string name="steps_tv_one">1) If screen is not already down, lower with screen remote.</string>
-    <string name="steps_tv_two">2) Slide finder across touch screen to turn on.</string>
-    <string name="steps_tv_three">3) Touch "HOME" on the touch screen and select "WATCH TV. Allow a few seconds for everything to turn on.</string>
-    <string name="steps_tv_four">4) If everything did not turn on, press the "MENU" button (three lines) and select "HELP" and follow the directions. (Cable Box is on when light is green.)</string>
-    <string name="steps_tv_five">5) Use the "Guide" button to bring up menu and press "OK" to select a channel. Or you can type in a specific channel you want to watch. Press the "DEVICES" button and select "CABLEONE STB" then selcet "123" and type in desired channel. To exit, press either "EXIT" or "HOME"</string>
+    <string name="steps_tv">1) If screen is not already down, lower with screen remote.\n
+        2) Slide finder across touch screen to turn on.\n
+        3) Touch "HOME" on the touch screen and select "WATCH TV. Allow a few seconds for everything to turn on.\n
+        4) If everything did not turn on, press the "MENU" button (three lines) and select "HELP" and follow the directions. (Cable Box is on when light is green.)\n
+        5) Use the "Guide" button to bring up menu and press "OK" to select a channel. Or you can type in a specific channel you want to watch. Press the "DEVICES" button and select "CABLEONE STB" then selcet "123" and type in desired channel. To exit, press either "EXIT" or "HOME"</string>
+    <string name="steps_dvd">1)Touch "HOME" on the touch screen and select "WATCH DVD." Allow a few seconds for everything to turn on.\n
+        2) Insert disc into DVD player.\n
+        3) Remote will control the DVD player.\n
+        4) If everything did not turn on, press the "MENU" button (three lines) and select "HELP" and follow the directions.</string>
+    <string name="steps_off">Point the remote toward the TV, press and release the "POWER" button.</string>
+    <string name="steps_trouble">For any other problems, press the "HELP" button on remote and follow instructions on touch screen.\n
+        Amplifer should read the correct inputs and should change automatically with remote, if not then manually adjust to the correct input.\n
+        To watch TV: "TV"\nTowatch DVD: "VIDEO"\n\nOr dial "72" for office, after hours call 208-221-3744.</string>
     <string name="near">Near Me</string>
     <string name="title_activity_nearme">Map</string>
+    <string name="remote_pic">Picture of the Remote</string>
 
     <string name="black_swan">Black Swan Inn\nPocatello, ID</string>
     <string name="alaska">Alaska</string>

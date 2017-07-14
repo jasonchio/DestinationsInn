@@ -21,6 +21,12 @@ public class Destinations extends AppCompatActivity {
         Log.v(TAG, "Successfully created");
     }
 
+    public void openWeb(View view) {
+        Intent i = new Intent(this, WebPage.class);
+        i.putExtra("url", getString(R.string.url_destinations_reservation));
+        startActivity(i);
+    }
+
     public void openAlaska(View view) {
         Intent i = new Intent(this, Room.class);
         i.putExtra("welcome", getString(R.string.welcome) + " " + getString(R.string.alaska));
@@ -28,6 +34,7 @@ public class Destinations extends AppCompatActivity {
         i.putExtra("overview", ov);
         i.putExtra("wifi", getString(R.string.wifi_dest));
         i.putExtra("entertainment", getString(R.string.entertainment));
+        i.putExtra("lights", getString(R.string.lighting));
         startActivity(i);
     }
 

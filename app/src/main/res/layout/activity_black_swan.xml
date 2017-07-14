@@ -22,6 +22,22 @@
             android:layout_height="10dp"
             android:background="#442222" />
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="#664444"
+            android:onClick="openWeb"
+            android:padding="50dp"
+            android:text="@string/reserve"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="#442222" />
+
         <ImageView
             android:id="@+id/arabian"
             android:layout_width="match_parent"

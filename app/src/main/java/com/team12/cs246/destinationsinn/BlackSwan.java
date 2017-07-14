@@ -19,6 +19,12 @@ public class BlackSwan extends AppCompatActivity {
         Log.v(TAG, "Successfully created");
     }
 
+    public void openWeb(View view) {
+        Intent i = new Intent(this, WebPage.class);
+        i.putExtra("url", getString(R.string.url_swan_reservation));
+        startActivity(i);
+    }
+
     public void openArabianNights(View view) {
         Intent i = new Intent(this, Room.class);
         i.putExtra("welcome", getString(R.string.welcome) + " " + getString(R.string.arabian));
