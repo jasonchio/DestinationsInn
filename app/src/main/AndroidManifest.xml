@@ -45,7 +45,8 @@
         <activity android:name=".System" />
         <activity android:name=".SystemIntro" />
         <activity android:name=".WebPage" />
-        <activity android:name=".dummy.Lights"></activity>
+        <activity android:name=".dummy.Lights" />
+        <activity android:name=".select_hotel"></activity>
     </application>
 
 </manifest>
